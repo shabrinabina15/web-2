@@ -1,0 +1,36 @@
+Nama : Shabrina Miladdina
+Nim : 0110124016
+Rombel : Si-12
+
+Tugas
+Jawablah pertanyaan-pertanyaan berikut ini dan simpan jawaban ke dalam sebuah file dengan
+nama tugas1_praktikum.txt dan push ke dalam branch praktikum01 di repository web-2
+
+1. Jelaskan apa yang dimaksud dengan dokumen root ?
+jawab : Jadi yang dimaksud dokumen root yaitu jenis folder/direktori utama/tempat sebuah web server dimana fungsinya itu untuk mencari dan menampilkan file yang sudah disimpan dalam bentuk web. untuk aksesnya melalui internet atau jaringan lokal oleh pengguna sesuai perintah yang diberikan si pengguna itu sendiri.
+
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori
+C:\xampp\htdocs ? Jelaskan jawaban anda
+jawab : tidak harus, tapi kalo dari awal download memang otomatis ter simpan pada direktori C:\xampp\htdocs. dokumen root bisa dipindahkan sesuai keinginan kita, tapi harus diatur di file httpd.conf agar bisa diakses oleh web server. misal yang awalnya dokumenroot "C:/xampp/htdocs/tugas1" diubah menjadi dokumenroot "D:/tugasku".
+
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push
+dan checkout
+jawab : perintah git yaitu perintah yang digunakan untuk membantu mengelola repository git, fungsinya untuk menyimpan serta mengelola perubahan kode saat koding misalnya, tujuannya untuk mencegah kehilangan data dan juga git bisa untuk kolaborasi dengan orang lain jadi bisa memudahkan pekerjaan jika sedang ada project.
+penjelasan ;
+- git init = perintah yang fungsinya untuk membuat repository baru/menyiapkan halaman kosong di direktori yang sedang kita gunakan, jadi kita bisa mengelola file-file yang ada di direktori tersebut.
+- git clone = perintah yang fungsinya untuk mengkloning repository yang sudah ada, maksudnya menyalin atau bisa dibilang menggandakan data yang sudah ada di remote jika ingin di simpan ke direktori lain. Tujuannya perintah ini juga untuk memudahkan kolaborasi dengan user lain.
+- git remote = perintah yang fungsinya untuk mengatur remote repository, maksud tujuan perintah ini yaitu untuk menghubungkan repository lokal dengan repository remote seperti github. trus juga memudahkan pengguna untuk melihat, mengubah atau menghapus repository remote.
+- git add = perintah yang fungsinya untuk menambahkan satu atau banyak file ke dalam staging area, bisa juga untuk menambahkan perubahan dan menandai suatu file sebelum di commit.
+- git commit = perintah yang fungsinya untuk menyimpan perubahan yang telah kita lakukan, secara permanen ke dalam repository lokal dan juga memudahkan untuk melacak setiap perubahannya.
+- git push = perintah yang fungsinya untuk mengirimkan/mengunggah perubahan ke remote, fungsi lainnya yaitu bisa mengunggah perubahan dan menghapus branch dari remote.
+- git checkout = perintah yang fungsinya untuk berpindah antara branch atau mengembalikan file ke kondisi sebelumnya dan juga fungsinya bisa untuk membuat branch baru dari branch yang sedang aktif.
+
+4. Jelaskan perbedaan antara GitHub dan GitLab
+jawab : github dan gitlab keduanya sama-sama berfungsi sebagai tempat menyimpan serta mengelola kode secara online dan sering digunakan untuk kolaborasi dengan orang lain. perbedaan antara keduanya yaitu github lebih simpel trus banyak yang menggunakan untuk open source karena mudah digunakan dan jangkauannya juga luas. Tapi kalau mau pakai fitur otomatis kayak CI/CD, github perlu pakai layanan tambahan. Sedangkan, GitLab udah punya fitur otomatis bawaan dan bisa di-host sendiri, jadi lebih cocok buat tim atau perusahaan yang butuh kontrol lebih. Soal harga, GitHub gratis buat fitur dasar tapi ada paket berbayar, sedangkan GitLab punya versi gratis yang lebih lengkap plus opsi premium. Jadi, kalau butuh tempat simpel buat kerja sama tim, GitHub cocok. Tapi kalau mau fitur lebih lengkap buat manajemen proyek dan otomatisasi, GitLab lebih oke.
+
+5. Apa bedanya variable user dengan variable system ?
+jawab : kedua variabel ini berfungsi untuk menyimpan informasi penting yang digunakan oleh sistem atau aplikasi saat dijalankan. kalo variable user sesuai namanya yaitu user/pengguna nah variable ini hanya bisa digunakan untuk satu akun pengguna tertentu, biasanya digunakan untuk menyimpan pengaturan atau jalur file pribadi dan hanya bisa diubah oleh pengguna itu sendiri. sedangkan, variable system adalah variable lingkungan yang berlaku untuk semua pengguna dalam sistem operasi. biasanya, variable ini digunakan untuk konfigurasi sistem atau jalur aplikasi yang harus diakses oleh semua pengguna di komputer tersebut. jadi konfigurasi sistem dan aplikasinya yaitu global dan hanya bisa diubah dengan izin administrator. Jadi kalo untuk penggunaan secara fungsi variable user cocok untuk pengaturan pribadi, sedangkan variable system digunakan untuk pengaturan yang memengaruhi seluruh sistem.
+
+6. Apa persamaan variable system dengan variable constant ?
+jawab :  keduanya memiliki kesamaan dalam hal sifatnya yang relatif tetap dan fungsinya dalam mengelola data atau konfigurasi yang penting. kalo variable system itu variable lingkungan yang berlaku untuk semua pengguna dalam sistem operasi. biasanya, variable ini digunakan untuk konfigurasi sistem atau jalur aplikasi yang harus diakses oleh semua pengguna di komputer tersebut. jadi konfigurasi sistem dan aplikasinya yaitu global, hanya bisa diubah dengan izin administrator dan digunakan untuk pengaturan yang memengaruhi seluruh sistem. sedangkan variable constant itu variable dalam pemrograman yang nilainya tidak dapat diubah setelah dideklarasikan. variable constant biasanya digunakan untuk menyimpan nilai yang bersifat tetap selama program berjalan, sehingga tidak bisa diubah secara tidak sengaja oleh kode lainnya. fungsi variable constant untuk Membantu mencegah kesalahan akibat perubahan nilai yang tidak disengaja dan Meningkatkan keterbacaan kode karena memberikan nama yang jelas untuk nilai tetap. 
+kesimpulannya : variable system dan variable constant sama-sama bersifat tetap atau jarang berubah, bisa di akses secara global, fungsinya juga digunakan untuk suatu informasi yang sifatnya tidak berubah dan Mencegah perubahan yang tidak disengaja.
