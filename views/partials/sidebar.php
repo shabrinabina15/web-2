@@ -22,7 +22,7 @@ $url = end($url);
                 </a>
                 <a class="nav-link <?php echo in_array($url, ["list-kartu-diskon.php", "create-kartu-diskon.php"]) ? 'active' : '' ?>" href="list-kartu-diskon.php">
                     <div class="sb-nav-link-icon"><i class="fas fa-percent"></i></div>
-                    Kartu Diskon
+                    Data Kartu Diskon
                 </a>
                 <a class="nav-link <?php echo in_array($url, ["list-produk.php", "create-produk.php"]) ? 'active' : '' ?>" href="list-produk.php">
                     <div class="sb-nav-link-icon"><i class="fas fa-box"></i></div>
@@ -30,11 +30,11 @@ $url = end($url);
                 </a>
                 <a class="nav-link <?php echo in_array($url, ["list-jenis-produk.php", "create-jenis-produk.php"]) ? 'active' : '' ?>" href="list-jenis-produk.php">
                     <div class="sb-nav-link-icon"><i class="fas fa-tags"></i></div>
-                    Jenis Produk
+                    Data Jenis Produk
                 </a>
                 <a class="nav-link <?php echo in_array($url, ["list-pesanan.php"]) ? 'active' : '' ?>" href="list-pesanan.php">
                     <div class="sb-nav-link-icon"><i class="fas fa-shopping-cart"></i></div>
-                    Pemesanan
+                    Data Pemesanan
                 </a>
             </div>
         </div>
